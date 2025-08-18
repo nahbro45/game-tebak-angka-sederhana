@@ -15,6 +15,7 @@ print(' ')
 print('===== selamat bermain dan semoga beruntung =========')
 print('----------------------------------------------------')
 
+
 c = random.randint(1,10)
 r = 0
 max_r = 5   
@@ -36,5 +37,6 @@ while(r < max_r):
     print('kesempatan anda tinggal: ' + str(max_r - r))
     print('-------------------------------------------------')
     print('     ')
-print('anda gagal ')
+print(f'anda gagal | jawaban yang benar adalah {c}')
 print('mision filed')
+print(' 0 bintang di dapatkan')
