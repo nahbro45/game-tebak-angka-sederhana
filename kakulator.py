@@ -12,13 +12,8 @@ input_kedua = int(input('masukan angka ke dua : '))
 if op is '+':
     print('hasil = ' + str(input_pertama + input_kedua))
 elif op is '-':
-    print('hasil = '+ str(input_pertama + input_kedua))
+    print('hasil = '+ str(input_pertama - input_kedua))
 elif op is '*':
-    print('hasil = ' + str(input_pertama + input_kedua))
+    print('hasil = ' + str(input_pertama * input_kedua))
 elif op is '/':
-    print('hasil = ' + str(input_pertama + input_kedua))
-
-if input_pertama is not int:
-    print('error ')
-elif input_kedua is not int:
-    print('error')
+    print('hasil = ' + str(input_pertama / input_kedua))
