@@ -1,0 +1,10 @@
+print('tugas konversi suhu ')
+farenhait = float(input('masukkan farenhait: '))
+a = (5/9 *(farenhait - 32) + 273.15 )
+b = (f'nilai kelvin= {a}')
+print(b)
+
+kelvin = float(input('masukkan kelvin: '))
+a =(4/5 * (kelvin - 273.15))
+b =((9/4) * a + 32)
+print(f'nilai ferenhait= {b}')
